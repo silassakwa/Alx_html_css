@@ -1,0 +1,43 @@
+body,main{
+    display: flex;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex:auto
+}
+article{
+    flex:2;
+    overflow-y: auto;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+header,ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column-reverses;
+    justify-content: end;
+}
+header,ul,li
+{
+    margin-right: 20px;
+}
