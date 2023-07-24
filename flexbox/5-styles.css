@@ -263,11 +263,9 @@
          background: transparent;
   }
   
-  .header .header-container
-  {
-    display:flex;
+ .header-container {
+    display: flex;
     justify-content: space-between;
-
   }
   
   /* Footer
